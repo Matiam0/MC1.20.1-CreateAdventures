@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "crafting"
+  ],
+  "tasks": {
+    "cobble": {
+      "type": "heracles:item",
+      "amount": 8,
+      "collection": "CONSUME",
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "rewards": {
+    "furnace": {
+      "item": {
+        "id": "minecraft:furnace",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Gather some /d/cobblestone/d/ and make a furnace."
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          0,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:furnace",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "First Furnace"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

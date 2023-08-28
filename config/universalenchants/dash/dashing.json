@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_feet"
+  ],
+  "incompatible": [
+    "minecraft:depth_strider",
+    "minecraft:frost_walker"
+  ]
+}

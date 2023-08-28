@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Seed": {
+      "type": "heracles:item",
+      "amount": 4,
+      "collection": "CONSUME",
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "rewards": {
+    "bread": {
+      "item": {
+        "id": "minecraft:bread",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Break some grass to find food."
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -30,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:grass",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Break Grass"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

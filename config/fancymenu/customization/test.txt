@@ -1,0 +1,272 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = Just Crate Adventure
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = top-left
+  x = 105
+  action = movebutton
+  y = 190
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-left
+  x = 81
+  action = movebutton
+  y = 190
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 187
+  width = 266
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 13bf2ab7-c3da-4554-bc5b-36f53352babd1692870280535
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 100
+  action = deep_customization_element:title_screen_branding
+  actionid = 8816efc2-6266-43b7-8454-72b53f17fe951692870280535
+  y = 295
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 408
+  width = 231
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 02e58d44-506a-4204-89aa-b61184a590c91692870280535
+  y = 317
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 85815b80-50c0-42a7-a256-1fc4b8fea1d21692870280535
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = c37d21c5-235c-4e3f-9ad4-46b3855e98bb1692870280535
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 911af1a4-03ec-49df-8e7b-2f5136ac7cae1692870280535
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screens.worldselection.CreateWorldScreen%btnaction_splitter_fm%
+  x = 1
+  width = 100
+  action = addbutton
+  actionid = ba7dbd07-1639-4e58-a12d-3241a642e2741692866351879
+  y = 90
+  label = New World
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screens.worldselection.SelectWorldScreen%btnaction_splitter_fm%
+  x = 105
+  width = 100
+  action = addbutton
+  actionid = 54bdfe9a-0c45-4586-b253-d60e9ca499181692866681839
+  y = 90
+  label = Load World
+  height = 20
+}
+
+customization {
+  delayappearanceseconds = 3.0
+  slim = false
+  auto_skin = false
+  scale = 30
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 3f7ec939-23f2-44ef-befb-bba4f0661fdd1692866888840
+  playername = Matiamo
+  delayappearance = true
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-right
+  copy_client_player = true
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/33d13a0f81f606cf34490a68146e8a17fa83aa73e3c64cd76df81d611ed9fdb3
+  crouching = false
+  x = -26
+  width = 18
+  parrot_left_shoulder = false
+  y = 7
+  parrot = false
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen%btnaction_splitter_fm%
+  x = 1
+  width = 204
+  action = addbutton
+  actionid = e6d4518e-bcfc-4578-87ec-22b8cfe559b31692869521159
+  y = 140
+  label = Mods
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen%btnaction_splitter_fm%
+  x = 1
+  width = 204
+  action = addbutton
+  actionid = 62cfae0a-f24b-46e3-9c05-18eb0ad0c9a71692869687450
+  y = 115
+  label = Servers
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  x = 1
+  width = 100
+  action = addbutton
+  actionid = 27fe65b0-a7b8-44e9-922d-27f68568bd651692869772284
+  y = 165
+  label = Options
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = quitgame%btnaction_splitter_fm%
+  x = 105
+  width = 100
+  action = addbutton
+  actionid = 304dac47-05a1-4cd5-a0b3-e17ba9dd04501692869800497
+  y = 165
+  label = Quit
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = MC: {"placeholder":"mcversion"}%n%Forge: {"placeholder":"modversion","values":{"modid":"forge"}}%n%Mods: {"placeholder":"loadedmods"}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 1
+  width = 75
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0098f93e-7028-43a5-b954-8fb9d45f6ca51692870451101
+  y = 189
+  alignment = left
+  height = 72
+}
+

@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "furnace",
+    "backpack"
+  ],
+  "tasks": {
+    "pick": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "MANUAL",
+      "item": "minecraft:stone_pickaxe"
+    },
+    "iron": {
+      "type": "heracles:item",
+      "amount": 3,
+      "collection": "CONSUME",
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "rewards": {
+    "iron_pickaxe": {
+      "item": {
+        "id": "minecraft:iron_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -30,
+          90
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:iron_ingot",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Upgrades"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

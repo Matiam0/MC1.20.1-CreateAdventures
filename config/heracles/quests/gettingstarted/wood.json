@@ -1,0 +1,61 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Logs": {
+      "type": "heracles:item",
+      "amount": 4,
+      "collection": "CONSUME",
+      "item": "#minecraft:logs"
+    }
+  },
+  "rewards": {
+    "pick": {
+      "item": {
+        "id": "minecraft:stone_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "axe": {
+      "item": {
+        "id": "minecraft:stone_axe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Collect some /4/wood/4/."
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:oak_log",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Collect Wood"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

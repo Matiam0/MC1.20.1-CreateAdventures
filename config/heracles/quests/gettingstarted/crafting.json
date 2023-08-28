@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "wood"
+  ],
+  "tasks": {
+    "wood": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "CONSUME",
+      "item": "#minecraft:logs"
+    }
+  },
+  "rewards": {
+    "ctable": {
+      "item": {
+        "id": "minecraft:crafting_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          0,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:crafting_table",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crafting"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

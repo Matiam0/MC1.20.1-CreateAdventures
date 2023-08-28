@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "wood",
+    "food"
+  ],
+  "tasks": {
+    "string": {
+      "type": "heracles:item",
+      "amount": 2,
+      "collection": "CONSUME",
+      "item": "minecraft:string"
+    },
+    "leather": {
+      "type": "heracles:item",
+      "amount": 4,
+      "collection": "CONSUME",
+      "item": "minecraft:leather"
+    }
+  },
+  "rewards": {
+    "backpack": {
+      "item": {
+        "id": "sophisticatedbackpacks:backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Kill some /4/cows/4/ to get /d/leather/d/",
+      "then get some /d/string/d/."
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -30,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": "sophisticatedbackpacks:backpack",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Backpack"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}
