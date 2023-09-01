@@ -1,0 +1,1 @@
+//ServerEvents.recipes(e => {e.shapeless(Item.of('', #), [''])})

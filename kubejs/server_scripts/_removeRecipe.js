@@ -15,8 +15,15 @@ ServerEvents.recipes(e => {
     //sophisticated backpacks
     e.remove({output: 'sophisticatedbackpacks:upgrade_base'})
     e.remove({output: 'sophisticatedbackpacks:inception_upgrade'})
+    e.remove({output: 'sophisticatedbackpacks:iron_backpack'})
+    e.remove({output: 'sophisticatedbackpacks:gold_backpack'})
+    e.remove({output: 'sophisticatedbackpacks:diamond_backpack'})
+    e.remove({output: 'sophisticatedbackpacks:netherite_backpack'})
     //end
 
     //createadditions
-    e.remove({})
+    //e.remove({})
+
+    //general
+    e.remove({output:'minecraft:chain'})
 })
